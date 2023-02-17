@@ -1,5 +1,4 @@
-import { useRecoilValue } from "recoil";
-import { lightAtom } from "../atoms";
+
 import { ITickers } from "../interfaces";
 
 function ChangeDataOfTime(timeRange: String, coin: ITickers, isLight: Boolean ) {

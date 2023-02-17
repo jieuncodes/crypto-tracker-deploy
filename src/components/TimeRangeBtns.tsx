@@ -1,5 +1,6 @@
+
 import React from "react";
-import { useRecoilState, useRecoilValue } from "recoil";
+import { useRecoilState } from "recoil";
 import { timeRangeAtom } from "../atoms";
 import { Btns, BtnsBox, Time } from "../styles/Coins";
 

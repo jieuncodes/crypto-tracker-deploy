@@ -11,7 +11,7 @@ function Back() {
 
   return (
     <>
-      {location.pathname == "/" ? null : (
+      {location.pathname === "/" ? null : (
         <BackBtn onClick={onClick}>
           <KeyboardBackspaceIcon fontSize="large" />
         </BackBtn>

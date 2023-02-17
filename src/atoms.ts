@@ -4,7 +4,7 @@ const savedTheme = localStorage.getItem("SAVED_THEME");
 
 export const lightAtom = atom({
   key: "light",
-  default: savedTheme ? (savedTheme == "lightTheme" ? true : false) : true,
+  default: savedTheme ? (savedTheme === "lightTheme" ? true : false) : true,
 });
 
 export const timeRangeAtom = atom<String>({
